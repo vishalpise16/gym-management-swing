@@ -1,18 +1,0 @@
-
-p
-java:S1604"(Make this anonymous inner class a lambda(Ï¹ÿîúÿÿÿÿ8İª«Õï1J$6c42fef8-937e-4f7e-bedf-97bec528939f
-]
-java:S1220""Move this file to a named package.8èª«Õï1J$7cc814a0-4951-4538-a3bd-b2f30b6d08bd
-Œ
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8ÜÆÕï1J$4d78164a-28e0-4872-82c9-ffe5118d39b6
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ Òşüÿÿÿÿ8ßÆÕï1J$bbc8f8a3-dc4a-469a-8f18-9aa5b46ad1a5
-u
-java:S4925("-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8äÆÕï1J$85328e7b-8265-489c-b535-88fa7c5c4d67
-y
-java:S6437)"6Revoke and change this password, as it is compromised.(Ûù¡Å8óÈÕï1J$f0a1cffc-ef70-480b-a283-71784082a3ee
-l	java:S106*"+Replace this use of System.out by a logger.(´¯Êe8êÆÕï1J$fb996858-4d46-416e-8c71-7e8fb93a85ed
-q
-java:S1068".Remove this unused "textField1" private field.(×ŒàÌ8Ø««Õï1J$cab79c2b-b347-4986-829b-57b42c00dcad
-v
-java:S1068".Remove this unused "textField2" private field.(ˆûÓ‘ûÿÿÿÿ8íÆÕï1J$816257fa-ff68-46de-acd0-312cacb1e73d
