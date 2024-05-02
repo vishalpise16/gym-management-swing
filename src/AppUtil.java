@@ -1,12 +1,15 @@
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 public class AppUtil {
 
+    private static String dateFormat = "dd-MM-yyyy";
+
     public String dateConversion(Date date) {
-        DateFormat outputFormat = new SimpleDateFormat("dd-MM-yyyy");
+        DateFormat outputFormat = new SimpleDateFormat(dateFormat);
         String formattedDate = outputFormat.format(date);
         System.out.println("Formatted date: " + formattedDate);
         return formattedDate;
@@ -21,5 +24,11 @@ public class AppUtil {
         String formattedDate = dateConversion(utilDate);
         System.out.println("New Date after adding 3 months: " + formattedDate);
         return formattedDate;
+    }
+
+    public Boolean dateComparison(String date) throws ParseException {
+        Date renewalDate=new SimpleDateFormat(dateFormat).parse(date);
+        Date currentDate = new Date();
+        return currentDate.after(renewalDate);
     }
 }
